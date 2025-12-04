@@ -84,10 +84,18 @@ O fluxo do aplicativo foi desenhado para ser intuitivo e direto:
 
 ## Squad 15
 
-Este projeto foi desenvolvido de forma colaborativa.
+Este projeto foi desenvolvido de forma colaborativa por:
 
-[Inserir seu LinkedIn]
-[Inserir seu E-mail]
+* [Luís Nunes] 
+* [Raysa Queiroz]
+* [Cauã Rego]
+* [João Pedro Cavalcanti]
+* [Pedro Feitosa]
+* [Micaella Cabral]
+* [Rodrigo Montenegro]
+* [João Bonifácio]
+* [Luis Vilas]
+* [Lucas Valença]
 
 ---
 *Este projeto foi desenvolvido com fins acadêmicos e de portfólio, focado na ODS 4 da ONU (Educação de Qualidade).*

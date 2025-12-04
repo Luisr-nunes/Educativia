@@ -1,4 +1,4 @@
-# Canvas Ágil - Planejamento Pedagógico com IA 
+# EDUCATIVIA - Planejamento Pedagógico com IA 
 <img width="500" height="140" alt="EDUCΛTIVIΛ-removebg-preview" src="https://github.com/user-attachments/assets/0184df9e-800f-40cf-bbd4-06c4961e8f50" />
 
 > **Otimizando o tempo do professor para focar no que realmente importa: o aluno.**
@@ -9,7 +9,7 @@
 
 ## Sobre o Projeto
 
-O **Canvas Ágil** é uma solução desenvolvida pelo **Squad 15** para enfrentar um dos maiores gargalos da educação básica no Brasil: a sobrecarga docente. Nossa plataforma utiliza Inteligência Artificial para criar, adaptar e gerenciar planos de ensino alinhados à BNCC, devolvendo ao professor o seu ativo mais precioso: o tempo.
+O **EDUCATIVIA** é uma solução desenvolvida pelo **Squad 15** para enfrentar um dos maiores gargalos da educação básica no Brasil: a sobrecarga docente. Nossa plataforma utiliza Inteligência Artificial para criar, adaptar e gerenciar planos de ensino alinhados à BNCC, devolvendo ao professor o seu ativo mais precioso: o tempo.
 
 🔗 **[Acesse o Protótipo Navegável no Figma](https://aged-sleek-15809251.figma.site)**
 

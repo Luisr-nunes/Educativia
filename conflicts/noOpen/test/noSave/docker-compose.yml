@@ -1,0 +1,33 @@
+# docker-compose.yml — Orquestra todos os serviços locais
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app  # hot reload
+      - ./instance:/instance # Volume para dados fora do diretório monitorado pelo Flask
+    env_file: .env
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - FLASK_ENV=development
+      - FLASK_APP=app:create_app
+      - FLASK_DEBUG=1
+      - INSTANCE_PATH=/instance
+      - DATABASE_URL=sqlite:////instance/educativia.db
+    depends_on: []
+    command: flask run --host=0.0.0.0 --reload
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/src:/app/src  # hot reload
+    environment:
+      - VITE_API_URL=http://localhost:5000/api

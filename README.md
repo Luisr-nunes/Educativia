@@ -1,102 +1,151 @@
-# EDUCATIVIA - Planejamento Pedagógico com IA 
-<img width="500" height="140" alt="EDUCΛTIVIΛ-removebg-preview" src="https://github.com/user-attachments/assets/0184df9e-800f-40cf-bbd4-06c4961e8f50" />
+<div align="center">
 
-> **Otimizando o tempo do professor para focar no que realmente importa: o aluno.**
+<img width="200" src="src/assests/17b4396c33897842498e8c05d06dfdaf98d045b4.png" alt="Educativia Logo"/>
 
-![Badge Concluído](https://img.shields.io/badge/Status-Concluído-green)
-![Badge Figma](https://img.shields.io/badge/Design-Figma-purple)
-![Badge ODS 4](https://img.shields.io/badge/ODS-4%20Educação%20de%20Qualidade-blue)
+# 🎓 EDUCATIVIA
+
+### Planejamento Pedagógico com Inteligência Artificial
+
+<br>
+
+![TypeScript](https://img.shields.io/badge/TypeScript-84.5%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-15.4%25-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-build-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+<br>
+
+![Status](https://img.shields.io/badge/Status-Concluído-2E8B57?style=flat-square)
+![ODS](https://img.shields.io/badge/ODS_4-Educação_de_Qualidade-0A97D9?style=flat-square)
+![Squad](https://img.shields.io/badge/Squad-15-6A0DAD?style=flat-square)
+![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-A0522D?style=flat-square)
+
+<br>
+
+> *Plataforma que utiliza IA para criar, adaptar e gerenciar planos de ensino alinhados à BNCC,*
+> *devolvendo ao professor o seu ativo mais precioso: **o tempo**.*
+
+<br>
+
+[![Acessar Protótipo no Figma](https://img.shields.io/badge/▶%20%20Acessar%20Protótipo%20Navegável%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://aged-sleek-15809251.figma.site)
+
+</div>
+
+---
 
 ## Sobre o Projeto
 
-O **EDUCATIVIA** é uma solução desenvolvida pelo **Squad 15** para enfrentar um dos maiores gargalos da educação básica no Brasil: a sobrecarga docente. Nossa plataforma utiliza Inteligência Artificial para criar, adaptar e gerenciar planos de ensino alinhados à BNCC, devolvendo ao professor o seu ativo mais precioso: o tempo.
-
-🔗 **[Acesse o Protótipo Navegável no Figma](https://aged-sleek-15809251.figma.site)**
+O **EDUCATIVIA** é uma solução desenvolvida pelo **Squad 15** para enfrentar um dos maiores gargalos da educação básica no Brasil: a **sobrecarga docente**. A plataforma atua como um "copiloto pedagógico", utilizando Inteligência Artificial para automatizar o planejamento de aulas e devolver ao professor tempo para focar no que realmente importa — o aluno.
 
 ---
 
 ## O Problema
 
-A realidade do docente brasileiro é marcada pela exaustão. Nossas pesquisas indicam que:
+A realidade do docente brasileiro é marcada pela exaustão:
 
-* **Desproporção de Tempo:** Para planejar uma aula de apenas 50 minutos, um professor chega a gastar cerca de **3 horas** no preparo.
-* **Sobrecarga Administrativa:** Professores brasileiros gastam mais horas em tarefas fora de sala de aula do que a média global.
-* **Complexidade:** Acompanhar várias turmas com cronogramas distintos e adaptar metodologias para diferentes níveis de aprendizado é uma dor constante.
+| Dado | Impacto |
+|---|---|
+| Para cada **50 min** de aula | O professor gasta até **3 horas** no preparo |
+| Horas fora de sala | Professores BR superam a média global em tarefas administrativas |
+| Turmas heterogêneas | Adaptar metodologias para diferentes níveis é uma dor constante |
 
-> *"A pesquisa aponta para um cenário de exaustão docente. A sobrecarga e a intensificação do trabalho são agravadas pelo alto volume de tarefas que extrapolam a sala de aula."* — (Baseado em Viegas, 2022 e Moriconi et al., 2021).
+> *"A sobrecarga e a intensificação do trabalho são agravadas pelo alto volume de tarefas que extrapolam a sala de aula."*
+> — Baseado em Viegas (2022) e Moriconi et al. (2021)
 
 ---
 
 ## A Solução
 
-Desenvolvemos uma plataforma integrada que atua como um "copiloto pedagógico":
-
-1.  **Planejamento com IA:** Geração de planos de aula completos em minutos, sugerindo metodologias ativas adequadas ao objetivo e série.
-2.  **Adaptação de Conteúdo:** Personalização de materiais para diferentes níveis de aprendizado e necessidades específicas.
-3.  **Gestão Automatizada:** Organização de calendário e horários escolares para reduzir tarefas manuais.
-4.  **Comunidade Colaborativa:** Espaço para troca de boas práticas e materiais entre educadores.
+| Funcionalidade | Descrição |
+|---|---|
+| **Planejamento com IA** | Gera planos de aula completos em minutos com metodologias ativas adequadas |
+| **Adaptação de Conteúdo** | Personaliza materiais para diferentes níveis e necessidades |
+| **Gestão Automatizada** | Organiza calendário e grade de aulas reduzindo tarefas manuais |
+| **Comunidade Colaborativa** | Espaço para troca de boas práticas entre educadores |
 
 ---
 
 ## Processo de Design (UX/UI)
 
-Utilizamos metodologias de Design Thinking e Lean UX para validar e estruturar a solução.
+O projeto foi desenvolvido com metodologias de **Design Thinking** e **Lean UX**:
 
-### 1. Imersão e Pesquisa
-Realizamos uma análise profunda do cenário educacional:
-* **Matriz CSD:** Mapeamos certezas (dificuldade com turmas grandes), suposições (professores querem economizar tempo) e dúvidas (barreiras tecnológicas).
-* **Benchmark:** Analisamos concorrentes como *Profy*, *Eduaide* e *Plurall*. Identificamos que poucos focam explicitamente na BNCC ou possuem um banco robusto de metodologias ativas integrado.
+### Imersão e Pesquisa
+- **Matriz CSD** — mapeamento de certezas, suposições e dúvidas
+- **Benchmark** — análise de concorrentes: *Profy*, *Eduaide* e *Plurall*
+- Diferencial identificado: foco explícito na **BNCC** + banco de metodologias ativas integrado
 
-### 2. Personas e Empatia
-Definimos os arquétipos que representam nossos usuários:
-* **Carlos Menezes (O Professor):** 42 anos, rede pública. Sofre com a falta de recursos e precisa adaptar conteúdos de forma improvisada para turmas heterogêneas.
-* **Marta Oliveira (A Coordenadora):** 56 anos, gestora. Busca padronizar planos de ensino sem perder a qualidade e alinhar diferentes equipes.
+### Personas
+- **Carlos Menezes** (Professor, 42 anos, rede pública) — sofre com falta de recursos e turmas heterogêneas
+- **Marta Oliveira** (Coordenadora, 56 anos) — busca padronizar planos sem perder qualidade
 
-### 3. Jornada do Usuário
-Mapeamos a rotina do Carlos, desde a exaustão mental ao trabalhar nos finais de semana até a sensação de alívio ao utilizar uma ferramenta que cria planos alinhados à BNCC em 10 minutos.
-
-### 4. Ideação (Lean Canvas)
-Nossa proposta de valor única é criar planos perfeitos rapidamente, onde o sistema aprende e melhora com o uso comunitário ("Vantagem Desleal").
+### Lean Canvas
+Proposta de valor única: criar planos perfeitos em minutos, com sistema que aprende e melhora com uso comunitário.
 
 ---
 
-## Funcionalidades e Telas
+## Telas do Produto
 
-O fluxo do aplicativo foi desenhado para ser intuitivo e direto:
-
-* **🏠 Home:** Dashboard com visão geral e acesso rápido.
-* **📚 Biblioteca:** Repositório de metodologias e planos salvos.
-* **📅 Horários:** Gestão visual da grade de aulas.
-* **👥 Comunidade:** Fórum e troca de experiências.
-* **👤 Perfil:** Configurações e dados do docente.
-
-*(Veja o diagrama de fluxo completo)*
+| Tela | Descrição |
+|---|---|
+| **Home** | Dashboard com visão geral e acesso rápido |
+| **Biblioteca** | Repositório de metodologias e planos salvos |
+| **Horários** | Gestão visual da grade de aulas |
+| **Comunidade** | Fórum e troca de experiências entre docentes |
+| **Perfil** | Configurações e dados do professor |
 
 ---
 
-## Tecnologias e Ferramentas
+## Tecnologias
 
-* **Design:** Figma (Prototipagem e UI).
-* **Metodologias:** Double Diamond, Lean Canvas, Matriz CSD.
-* **Referências Teóricas:** Dados da OCDE, INEP, e estudos acadêmicos sobre trabalho docente.
+| Camada | Tecnologia |
+|---|---|
+| Frontend | **TypeScript + Vite** |
+| Estilo | **CSS3** |
+| Design / Prototipagem | **Figma** |
+| Metodologias | Double Diamond · Lean Canvas · Matriz CSD |
+
+---
+
+## Como Rodar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/Luisr-nunes/Educativia.git
+cd Educativia
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
 
 ---
 
 ## Squad 15
 
-Este projeto foi desenvolvido de forma colaborativa por:
+<div align="center">
 
-* [Luís Nunes] 
-* [Raysa Queiroz]
-* [Cauã Rego]
-* [João Pedro Cavalcanti]
-* [Pedro Feitosa]
-* [Micaella Cabral]
-* [Rodrigo Montenegro]
-* [João Bonifácio]
-* [Luis Vilas]
-* [Lucas Valença]
+| Integrante |
+|---|
+| **Luís Nunes** |
+| Raysa Queiroz |
+| Cauã Rego |
+| João Pedro Cavalcanti |
+| Pedro Feitosa |
+| Micaella Cabral |
+| Rodrigo Montenegro |
+| João Bonifácio |
+| Luis Vilas |
+| Lucas Valença |
+
+[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
+
+</div>
 
 ---
-*Este projeto foi desenvolvido com fins acadêmicos e de portfólio, focado na ODS 4 da ONU (Educação de Qualidade).*
-  
+
+<div align="center">
+
+*📚 Projeto acadêmico — CESAR School · ODS 4 da ONU (Educação de Qualidade)*
+
+</div>

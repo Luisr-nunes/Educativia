@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="200" src="src/assests/17b4396c33897842498e8c05d06dfdaf98d045b4.png" alt="Educativia Logo"/>
+<img width="200" src="src/assets/17b4396c33897842498e8c05d06dfdaf98d045b4.png" alt="Educativia Logo"/>
 
 # 🎓 EDUCATIVIA
 

@@ -1,151 +1,82 @@
 <div align="center">
 
-<img width="200" src="src/assets/17b4396c33897842498e8c05d06dfdaf98d045b4.png" alt="Educativia Logo"/>
+<img width="200" src="src/assets/17b4396c33897842498e8c05d06dfdaf98d045b4.png" alt="Logo Educativia"/>
 
-# 🎓 EDUCATIVIA
+# Educativia
 
-### Planejamento Pedagógico com Inteligência Artificial
+<!-- badges -->
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-<br>
+[Read in English](README.en.md)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-84.5%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-15.4%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-build-646CFF?style=flat-square&logo=vite&logoColor=white)
+Copiloto pedagógico que usa inteligência artificial para criar, adaptar e organizar planos de aula alinhados à BNCC, devolvendo tempo ao professor.
 
-<br>
-
-![Status](https://img.shields.io/badge/Status-Concluído-2E8B57?style=flat-square)
-![ODS](https://img.shields.io/badge/ODS_4-Educação_de_Qualidade-0A97D9?style=flat-square)
-![Squad](https://img.shields.io/badge/Squad-15-6A0DAD?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-A0522D?style=flat-square)
-
-<br>
-
-> *Plataforma que utiliza IA para criar, adaptar e gerenciar planos de ensino alinhados à BNCC,*
-> *devolvendo ao professor o seu ativo mais precioso: **o tempo**.*
-
-<br>
-
-[![Acessar Protótipo no Figma](https://img.shields.io/badge/▶%20%20Acessar%20Protótipo%20Navegável%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://aged-sleek-15809251.figma.site)
+[Protótipo navegável no Figma](https://aged-sleek-15809251.figma.site)
 
 </div>
 
----
+## Sobre
 
-## Sobre o Projeto
+Projeto acadêmico do Squad 15 na Cesar School, ligado ao ODS 4 da ONU (Educação de Qualidade). O alvo é a sobrecarga docente na educação básica: para cada 50 minutos de aula, o professor pode gastar até 3 horas de preparo, além de adaptar o conteúdo para turmas heterogêneas.
 
-O **EDUCATIVIA** é uma solução desenvolvida pelo **Squad 15** para enfrentar um dos maiores gargalos da educação básica no Brasil: a **sobrecarga docente**. A plataforma atua como um "copiloto pedagógico", utilizando Inteligência Artificial para automatizar o planejamento de aulas e devolver ao professor tempo para focar no que realmente importa — o aluno.
+O repositório contém o front-end do protótipo, exportado do Figma Make em React e TypeScript. As telas usam dados simulados; não há back-end nem integração real com IA.
 
----
-
-## O Problema
-
-A realidade do docente brasileiro é marcada pela exaustão:
-
-| Dado | Impacto |
-|---|---|
-| Para cada **50 min** de aula | O professor gasta até **3 horas** no preparo |
-| Horas fora de sala | Professores BR superam a média global em tarefas administrativas |
-| Turmas heterogêneas | Adaptar metodologias para diferentes níveis é uma dor constante |
-
-> *"A sobrecarga e a intensificação do trabalho são agravadas pelo alto volume de tarefas que extrapolam a sala de aula."*
-> — Baseado em Viegas (2022) e Moriconi et al. (2021)
-
----
-
-## A Solução
+## Proposta
 
 | Funcionalidade | Descrição |
-|---|---|
-| **Planejamento com IA** | Gera planos de aula completos em minutos com metodologias ativas adequadas |
-| **Adaptação de Conteúdo** | Personaliza materiais para diferentes níveis e necessidades |
-| **Gestão Automatizada** | Organiza calendário e grade de aulas reduzindo tarefas manuais |
-| **Comunidade Colaborativa** | Espaço para troca de boas práticas entre educadores |
+| --- | --- |
+| Planejamento com IA | Gera planos de aula em minutos, com metodologias ativas |
+| Adaptação de conteúdo | Ajusta materiais para diferentes níveis e necessidades |
+| Gestão de horários | Organiza calendário e grade de aulas |
+| Comunidade | Troca de práticas entre professores |
 
----
+## Processo de design
 
-## Processo de Design (UX/UI)
+Desenvolvido com Design Thinking (Double Diamond) e Lean UX:
 
-O projeto foi desenvolvido com metodologias de **Design Thinking** e **Lean UX**:
+- **Imersão:** matriz CSD e benchmark com Profy, Eduaide e Plurall. Diferencial identificado: foco explícito na BNCC e banco integrado de metodologias ativas.
+- **Personas:** Carlos Menezes, professor de 42 anos da rede pública, com poucos recursos e turmas heterogêneas; Marta Oliveira, coordenadora de 56 anos que quer padronizar os planos sem perder qualidade.
+- **Lean Canvas:** planos de aula completos em minutos, com um sistema que melhora com o uso da comunidade.
+- **Referências:** Viegas (2022) e Moriconi et al. (2021) sobre a intensificação do trabalho docente.
 
-### Imersão e Pesquisa
-- **Matriz CSD** — mapeamento de certezas, suposições e dúvidas
-- **Benchmark** — análise de concorrentes: *Profy*, *Eduaide* e *Plurall*
-- Diferencial identificado: foco explícito na **BNCC** + banco de metodologias ativas integrado
+## Telas
 
-### Personas
-- **Carlos Menezes** (Professor, 42 anos, rede pública) — sofre com falta de recursos e turmas heterogêneas
-- **Marta Oliveira** (Coordenadora, 56 anos) — busca padronizar planos sem perder qualidade
-
-### Lean Canvas
-Proposta de valor única: criar planos perfeitos em minutos, com sistema que aprende e melhora com uso comunitário.
-
----
-
-## Telas do Produto
-
-| Tela | Descrição |
-|---|---|
-| **Home** | Dashboard com visão geral e acesso rápido |
-| **Biblioteca** | Repositório de metodologias e planos salvos |
-| **Horários** | Gestão visual da grade de aulas |
-| **Comunidade** | Fórum e troca de experiências entre docentes |
-| **Perfil** | Configurações e dados do professor |
-
----
+| Tela | Componente | Descrição |
+| --- | --- | --- |
+| Início | `HomeScreen` | Visão geral e atalho para novo planejamento |
+| Canvas | `CanvasEditor` | Editor do plano de aula em blocos |
+| Copiloto | `AIBottomSheet` | Sugestões de IA para o bloco selecionado |
+| Biblioteca | `LibraryScreen` | Metodologias e planos salvos |
+| Horários | `ScheduleManager` | Grade de aulas |
+| Comunidade | `CommunityFeed` | Troca de experiências entre docentes |
+| Perfil | `ProfileScreen` | Dados e configurações do professor |
 
 ## Tecnologias
 
-| Camada | Tecnologia |
-|---|---|
-| Frontend | **TypeScript + Vite** |
-| Estilo | **CSS3** |
-| Design / Prototipagem | **Figma** |
-| Metodologias | Double Diamond · Lean Canvas · Matriz CSD |
+- React 18, TypeScript e Vite 6
+- shadcn/ui sobre Radix UI, Lucide, Recharts
+- CSS gerado pelo Tailwind CSS 4
+- Figma e Figma Make (prototipação e exportação)
 
----
+## Como executar
 
-## Como Rodar Localmente
+Pré-requisito: Node.js 18+.
 
 ```bash
-# Clone o repositório
 git clone https://github.com/Luisr-nunes/Educativia.git
 cd Educativia
-
-# Instale as dependências
 npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
+npm run dev      # http://localhost:3000
 ```
-
----
 
 ## Squad 15
 
-<div align="center">
+Luís Nunes, Raysa Queiroz, Cauã Rego, João Pedro Cavalcanti, Pedro Feitosa, Micaella Cabral, Rodrigo Montenegro, João Bonifácio, Luis Vilas e Lucas Valença.
 
-| Integrante |
-|---|
-| **Luís Nunes** |
-| Raysa Queiroz |
-| Cauã Rego |
-| João Pedro Cavalcanti |
-| Pedro Feitosa |
-| Micaella Cabral |
-| Rodrigo Montenegro |
-| João Bonifácio |
-| Luis Vilas |
-| Lucas Valença |
+## Créditos
 
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
+Componentes de [shadcn/ui](https://ui.shadcn.com/) (MIT) e fotos do [Unsplash](https://unsplash.com/license); ver [Attributions.md](Attributions.md).
 
-</div>
+## Projeto relacionado
 
----
-
-<div align="center">
-
-*📚 Projeto acadêmico — CESAR School · ODS 4 da ONU (Educação de Qualidade)*
-
-</div>
+[CanvasAgil](https://github.com/Luisr-nunes/CanvasAgil) guarda a mesma exportação do Figma Make como base reutilizável.
